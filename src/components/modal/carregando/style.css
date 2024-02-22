@@ -1,0 +1,67 @@
+.container-modal-carregando{
+    display: flex;
+    position: fixed;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: #000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+.container-modal-corpo{
+    background-color: #ddd;
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    
+}
+.quadrados{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado-um, 
+.quadrado-dois,
+.quadrado-tres {
+    width: 8px;
+    height: 8px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.quadrado-um{
+    animation: animacao;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+.quadrado-dois{
+    animation: animacao;
+    animation-duration: 1.5s;
+    animation-delay: 1.1s;
+    animation-iteration-count: infinite;
+}
+.quadrado-tres{
+    animation: animacao;
+    animation-duration: 1.5s;
+    animation-delay: 1.2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes animacao {
+    from{
+        opacity: 1;
+        margin-bottom: -10px;
+    }
+    to{
+        opacity: 0;
+        margin-bottom: -10px;
+    }
+    
+}
+

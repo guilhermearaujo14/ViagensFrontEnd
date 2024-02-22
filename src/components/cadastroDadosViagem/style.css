@@ -1,0 +1,30 @@
+.dados-viagem-form{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.container-input-cidade,
+.container-input-viajante{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.inputDadosViagem{
+    width: 80%;
+    height: 35px;
+}
+.btnAdicionarViajante{
+    border: 1px solid #181818;
+    margin-left: 4px;
+    background-color: #606060;
+    color: #fff;
+    height: 35px;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+.dados-viagem-lista{
+    list-style-type: none;
+}
+.dados-viagem-list-viajantes{
+    text-align: left;
+}
